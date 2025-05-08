@@ -1,0 +1,10 @@
+[package]
+name = "project_show"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+orion = "0.17.10"
+rand = "0.9.1"
+rand_core = "0.9.3"
+
