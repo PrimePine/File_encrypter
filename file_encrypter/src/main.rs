@@ -13,8 +13,6 @@ fn get_random( dest: &mut [u8]) {
     let mut rng = rand::rng();
     rng.fill( dest );
 }
-
-
 fn nonce() -> Vec<u8>{
     let mut randoms: [u8; 24] = [0; 24];
     get_random( &mut randoms);
